@@ -1,0 +1,47 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.kitten {
+    width: 100px;
+    height: 100px;
+}
+
+.kitten-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.exercise-5 {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.kitten-3 {
+    width: 100px;
+    height: 100px;
+}

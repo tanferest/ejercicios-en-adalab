@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/main.css" rel="stylesheet" />
+    <title>Modelo de caja</title>
+  </head>
+  <body>
+    <h1>Modelo de caja</h1>
+
+    <article>
+      <h2>1. Marcando</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+        <mark>inventore</mark> recusandae aliquam facilis saepe neque,
+        repudiandae iusto provident dicta obcaecati suscipit aspernatur illo
+        cupiditate molestias alias harum delectus voluptatem nulla.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+        laudantium in odit. Reiciendis unde magni facere rerum natus eius
+        obcaecati sint,
+        <mark
+          >quisquam adipisci sunt veniam labore similique ab quis
+          deserunt!</mark
+        >
+      </p>
+      <p>
+        La etiqueta <em><mark>mark</mark></em> reproduce la caja del elemento
+        que rodea con un fondo amarillo, como si se tratase de un rotulador
+        marcador.
+      </p>
+    </article>
+
+    <article>
+      <h2>2. Displays</h2>
+      <p>Block</p>
+      <div class="box block"></div>
+      <div class="box block"></div>
+      <div class="box block"></div>
+      <p>Inline</p>
+      <div class="box inline">
+        <p>Elemento inline</p>
+      </div>
+      <div class="box inline"><p>Elemento inline</p></div>
+      <div class="box inline"><p>Elemento inline</p></div>
+      <p>Inline-block</p>
+      <div class="box inline-block"></div>
+      <div class="box inline-block"></div>
+      <div class="box inline-block"></div>
+      <p>Hidden</p>
+      <div class="box hidden"></div>
+      <div class="box hidden"></div>
+      <div class="box hidden"></div>
+    </article>
+
+    <article>
+      <h2>3. Imagen en párrafo</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
+        praesentium ipsum explicabo atque mollitia,
+        <img
+          class="kitten"
+          src="./images/kitten.jpeg"
+          alt="A cute sleepy kitten"
+        />
+        illo tempore maxime magni quidem aliquam natus, facere fugiat deserunt
+        est cupiditate rem amet quos modi?
+      </p>
+      <p>
+        Al colocar una imagen dentro de un párrafo, esta se comporta de manera
+        similar a un elemento inline-block. Se sitúa en línea con el texto, pero
+        se pueden modificar sus dimensiones.
+      </p>
+    </article>
+
+    <article>
+      <h2>4. Imagen entre párrafos.</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+        dolorum, atque magnam error, iure illo ut suscipit dolores dolore
+        corporis aliquid eos nemo, ipsam assumenda beatae earum velit corrupti
+        ullam.
+      </p>
+      <img
+        class="kitten-2"
+        src="./images/kitten.jpeg"
+        alt="Same kitten but bigger"
+      />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+        dolor vitae, saepe nulla nihil perspiciatis architecto optio distinctio
+        ex, corporis incidunt eum qui molestiae magni aut porro asperiores
+        dolorem dolorum.
+      </p>
+    </article>
+
+    <article>
+      <h2>5. Ajustando imágenes</h2>
+      <div class="exercise-5">
+        <img
+          class="kitten-3"
+          src="./images/kitten.jpeg"
+          alt="Yes, the same little guy again"
+        />
+      </div>
+    </article>
+  </body>
+</html>
