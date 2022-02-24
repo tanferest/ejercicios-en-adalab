@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(157, 92, 88);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    z-index: 1;
+}
+
+.main-container {
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+    position: absolute;
+    top: 70px;
+}
+
+.main-container p {
+    margin-top: 10px;
+}
+
+.cookies-ad {
+    height: 100px;
+    width: 90%;
+    background-color: rgba(254, 245, 150, 0.79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+}
